@@ -8,7 +8,7 @@ class MY_Controller extends CI_Controller {
     public function __construct() {
         parent::__construct();
         $this->load->helper(array('form','language','url'));
-        $this->lang->load('english');
+        //$this->lang->load('english');
     }
 	
     /*Front Page Layout*/
