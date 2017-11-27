@@ -1,5 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-class MY_Controller extends CI_Controller { 
+class WEB_Controller extends CI_Controller { 
     //set the class variable.
     public $template  = array();
     public $data      = array();
